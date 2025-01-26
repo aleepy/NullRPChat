@@ -55,28 +55,32 @@
 The `config.yml` file allows you to customize the plugin's behavior. Below is an example configuration:
 
 ```yaml
-# Default chat radius (in blocks)
-chat-radius: 50
-
-# Command settings
 commands:
   me:
     enabled: true
-    format: "* %player% %message%"
-    color: "#FFA500"  # Orange
+    format: "&d<%player%> %message%"
+    color: "#FF00FF"
+    verb: ""
     radius: 50
+
   do:
     enabled: true
-    format: "* %message%"
-    color: "#00FF00"  # Green
-    radius: 50
+    format: "&e<%player%> %message%"
+    color: "#FFFF00"
+    verb: ""
+    radius: 60
+
   say:
     enabled: true
-    format: "%player% says: %message%"
-    color: "#FFFFFF"  # White
-    radius: 50
+    format: "&7<%player%> %message%"
+    color: "#AAAAAA"
+    verb: "said"
+    radius: 40
+
   whisper:
     enabled: true
-    format: "[Whisper] %player% -> %target%: %message%"
-    color: "#ADD8E6"  # Light Blue
-    radius: 10
+    format: "&7<%player%> %message%"
+    color: "#AAAAAA"
+    verb: "whisper:"
+    radius: 20
+
