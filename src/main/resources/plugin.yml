@@ -1,0 +1,4 @@
+name: NullRPChat
+version: '${project.version}'
+main: nulifie.xyz.nullrpchat.NullRPChat
+api-version: '1.20'

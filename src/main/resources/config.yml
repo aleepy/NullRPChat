@@ -1,0 +1,19 @@
+name: NullRPChat
+version: 1.0
+main: nulifie.xyz.nullrpchat.NullRPChat
+api-version: 1.19
+softdepend: [PlaceholderAPI, DiscordSRV]
+commands:
+  me:
+    description: Roleplay action.
+    usage: /me <message>
+  do:
+    description: Roleplay action description.
+    usage: /do <action>
+  say:
+    description: Roleplay say message.
+    usage: /say <message>
+  nullrpchat:
+    description: Manage the NullRPChat plugin.
+    usage: /nullrpchat reload
+    aliases: [nullrpchat]
